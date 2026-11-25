@@ -1,0 +1,13 @@
+{
+  "name": "aula03-cacador-de-erros",
+  "version": "1.0.0",
+  "description": "Aula 03 - Atividade O Caçador de Erros com Streams e Readline",
+  "main": "filtrar.js",
+  "scripts": {
+    "gerar": "node gerar-log.js",
+    "start": "node filtrar.js",
+    "compactar": "node compactar.js",
+    "comparar": "node comparar-memoria.js"
+  }
+}
+

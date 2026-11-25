@@ -1,0 +1,15 @@
+{
+  "name": "aula05-operacao-cofre-aberto",
+  "version": "1.0.0",
+  "description": "Aula 05 - Atividade: Operação Cofre Aberto",
+  "main": "app.js",
+  "scripts": {
+    "cofre-aberto": "node cofre-aberto.js",
+    "start": "node app.js",
+    "dev-env": "node --env-file=.env app.js",
+    "prod-env": "node --env-file=.env.production app.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}

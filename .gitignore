@@ -1,0 +1,29 @@
+# Dependências e builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# Guias e roteiros exclusivos do professor (não sobem para o GitHub)
+GUIA_DO_PROFESSOR.md
+**/GUIA_DO_PROFESSOR.md
+ROTEIRO_AULAS_*.md
+**/ROTEIRO_AULAS_*.md
+EXPLICACAO_BLOCO*.md
+**/EXPLICACAO_BLOCO*.md
+GEMINI.md
+.agents/
+
+# Variáveis de ambiente e arquivos de log gerados nos testes
+.env
+**/.env
+.env.production
+**/.env.production
+*.log
+**/*.log
+logs/
+**/logs/
+relatorio.txt
+**/relatorio.txt

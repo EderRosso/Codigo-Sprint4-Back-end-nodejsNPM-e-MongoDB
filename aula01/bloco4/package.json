@@ -1,0 +1,19 @@
+{
+  "name": "aula01-bloco4",
+  "version": "1.0.0",
+  "description": "Bloco 4 - Atividades Práticas (Diagnóstico e Provas)",
+  "main": "provas.js",
+  "scripts": {
+    "start": "node provas.js",
+    "dev": "node --watch provas.js",
+    "diagnostico": "node diagnostico.js",
+    "extra": "node desafio-extra.js"
+  },
+  "keywords": [],
+  "author": "Prof. Éder Oliveira de Rosso",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}

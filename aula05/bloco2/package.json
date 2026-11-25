@@ -1,0 +1,12 @@
+{
+  "name": "aula05-bloco2-dotenv",
+  "version": "1.0.0",
+  "description": "Aula 05 - Bloco 2: Primeiro contato com .env e dotenv",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

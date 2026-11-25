@@ -1,0 +1,13 @@
+{
+  "name": "aula04-bloco3-express",
+  "version": "1.0.0",
+  "description": "Aula 04 - Bloco 3: Express e Middleware de Erro Global",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "middleware": "node middleware-erro.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

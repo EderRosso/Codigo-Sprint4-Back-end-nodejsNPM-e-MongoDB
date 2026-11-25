@@ -1,0 +1,13 @@
+{
+  "name": "aula05-bloco3-config",
+  "version": "1.0.0",
+  "description": "Aula 05 - Bloco 3: process.env, config.js e --env-file",
+  "main": "usar-config.js",
+  "scripts": {
+    "start": "node usar-config.js",
+    "nativo": "node --env-file=.env app-sem-dotenv.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}

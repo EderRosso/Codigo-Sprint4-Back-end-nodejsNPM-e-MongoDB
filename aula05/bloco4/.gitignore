@@ -1,0 +1,5 @@
+# Slide 14 (Passo 5) - .gitignore (Impede que o .env e a node_modules subam para o GitHub)
+.env
+.env.production
+node_modules/
+*.log
